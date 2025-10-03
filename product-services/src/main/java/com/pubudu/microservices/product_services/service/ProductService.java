@@ -27,7 +27,7 @@ public class ProductService {
                 .price(productRequest.price())
                 .build();
         productRepository.save(product);
-        String message = String.format("Product %s created", product.getName());
+        String message = String.format("Product %s created: ", product.getName());
         log.info(message);
         return new ProductResponce(product.getId(),product.getName(),product.getDescription(),product.getPrice());
     }
