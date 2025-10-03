@@ -84,6 +84,12 @@
 			<version>2.5.0</version>
 			<!--  Use the latest compatible version  -->
 		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.5.6</version>
+		</dependency>
 	</dependencies>
 
 	<build>
