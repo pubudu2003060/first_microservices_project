@@ -13,7 +13,7 @@ import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 import java.time.Duration;
 
 @Configuration
-public class RestClientConfig {
+public class  RestClientConfig {
 
     @Value("${inventory.url}")
     private String inventryUrl ;

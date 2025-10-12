@@ -18,4 +18,5 @@ public interface InventoryClient {
     default boolean fallbackMethod( String skucode, Integer quantity,Throwable throwable) {
         return false;
     }
+
 }
